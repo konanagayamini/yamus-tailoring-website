@@ -18,3 +18,42 @@ h2 {
 section {
     padding: 20px;
 }
+
+#testimonials{
+padding:80px 10%;
+background:#fff7fa;
+}
+
+.testimonial-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.testimonial-card{
+background:white;
+padding:25px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.testimonial-card:hover{
+transform:translateY(-10px);
+}
+
+.testimonial-card img{
+width:90px;
+height:90px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:15px;
+}
+
+.stars{
+color:gold;
+font-size:20px;
+margin:10px 0;
+}
