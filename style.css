@@ -765,3 +765,92 @@ transform:translateY(-10px);
 color:#9b2835;
 
 }
+:root{
+    --orange:#e67e22;
+    --light-orange:#fff3e8;
+}
+
+
+body{
+    background:#fffaf5;
+}
+
+
+/* Header */
+
+header{
+    background:white;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+
+.logo{
+    color:var(--orange);
+}
+
+
+nav a:hover{
+    color:var(--orange);
+}
+
+
+button{
+
+    background:var(--orange);
+    color:white;
+    border-radius:30px;
+
+}
+
+
+/* Section headings */
+
+section h2{
+
+    color:var(--orange);
+
+}
+url("boutique.jpg")
+.designs{
+
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+
+}
+
+
+.designs div{
+
+background:white;
+width:300px;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 10px 30px #ddd;
+
+}
+
+
+.designs img{
+
+width:100%;
+height:250px;
+object-fit:cover;
+
+}
+
+
+.designs h3{
+
+color:#e67e22;
+padding:15px;
+
+}
+
+
+.designs p{
+
+padding:0 15px 25px;
+
+}
