@@ -854,3 +854,21 @@ padding:15px;
 padding:0 15px 25px;
 
 }
+.hero{
+
+background:
+linear-gradient(
+rgba(0,0,0,0.45),
+rgba(0,0,0,0.45)
+),
+url("images/boutique-home.jpg");
+
+background-size:cover;
+background-position:center;
+
+}
+<img src="images/blouse.jpg">
+
+<img src="images/bridal.jpg">
+
+<img src="images/stitching.jpg">
