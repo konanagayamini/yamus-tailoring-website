@@ -575,3 +575,76 @@ button{
     font-size:16px;
 
 }
+.hero{
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.45),
+    rgba(0,0,0,0.45)
+    ),
+    url("boutique.jpg");
+
+    background-size:cover;
+    background-position:center;
+}
+url("boutique.jpg");
+.hero{
+
+background:
+linear-gradient(
+rgba(0,0,0,0.45),
+rgba(0,0,0,0.45)
+),
+url("https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f");
+
+background-size:cover;
+background-position:center;
+
+}
+.hero{
+    height:100vh;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.45),
+    rgba(0,0,0,0.45)
+    ),
+    url("boutique.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    color:green;
+}
+.hero-text h1{
+    color:#00ff00;
+    font-size:65px;
+}
+
+
+.hero-text h2{
+    color:#90ee90;
+    font-size:35px;
+}
+
+
+.hero-text p{
+    color:white;
+    font-size:22px;
+}
+.hero-text h1{
+    color:#d4af37;   /* gold */
+}
+
+.hero-text h2{
+    color:#90ee90;   /* light green */
+}
+
+.hero-text p{
+    color:white;
+}
