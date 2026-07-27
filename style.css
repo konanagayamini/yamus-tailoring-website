@@ -435,3 +435,33 @@ align-items:center;
 }
 
 }
+
+.features{
+
+display:flex;
+justify-content:center;
+gap:25px;
+padding:50px 10%;
+background:#fff;
+
+}
+
+
+.features div{
+
+background:#fff8f5;
+padding:25px;
+width:280px;
+border-radius:20px;
+box-shadow:0 5px 20px #ddd;
+
+}
+
+
+.features h3{
+
+color:#a52a3a;
+margin-bottom:15px;
+
+}
+url("boutique.jpg")
