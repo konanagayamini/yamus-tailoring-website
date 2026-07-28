@@ -867,8 +867,16 @@ background-size:cover;
 background-position:center;
 
 }
-<img src="images/blouse.jpg">
+.hero{
 
-<img src="images/bridal.jpg">
+background:
+linear-gradient(
+rgba(0,0,0,0.45),
+rgba(0,0,0,0.45)
+),
+url("image/home page.jpg");
 
-<img src="images/stitching.jpg">
+background-size:cover;
+background-position:center;
+
+}
